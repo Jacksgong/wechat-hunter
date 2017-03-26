@@ -10,6 +10,27 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    signingConfigs {
+        release {
+            File file = project.rootProject.file('local.properties')
+            if (!file.exists()) {
+                // fail to sign apk.
+            } else {
+                Properties p = new Properties()
+                p.load(file.newDataInputStream())
+                if (p.containsKey('jks.file')
+                        && p.containsKey('jks.password')
+                        && p.containsKey('jks.alias')) {
+                    storeFile new File(p['jks.file'])
+                    storePassword p['jks.password']
+                    keyAlias p['jks.alias']
+                    keyPassword p['jks.password']
+                }
+            }
+        }
+    }
+
     buildTypes {
         debug {
             minifyEnabled false
@@ -17,6 +38,7 @@ android {
 
         release {
             minifyEnabled true
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
