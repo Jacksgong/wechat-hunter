@@ -8,6 +8,8 @@
 
 - 隐藏发现页面的游戏中心 -- added since v1.0
 
+![](https://raw.githubusercontent.com/Jacksgong/wechat-hunter/master/arts/no-game.png)
+
 ## LICENSE
 
 ```
