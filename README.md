@@ -1,10 +1,13 @@
 # Wechat Hunter
 
-> Xposed Module
+![][wechat_hunter_svg]
+![][xposed_module_svg]
 
 这个模块是因为这几天都在玩王者荣耀游戏，后面老是被坑怒卸了，后来老是想要打开微信的游戏中心，看看好友动态，但是看了又想玩，于是就在设置->通用->功能里面找，却没有找到关闭游戏模块的地方，所以就看了下[Xposed文档](https://github.com/rovo89/XposedBridge/wiki/Development-tutorial)，隐藏了微信的游戏中心。
 
 #### 目前支持功能:
+
+> 已经在[Xposed Module Repository](http://repo.xposed.info/module/cn.dreamtobe.xposed.wechathunter)中发布。
 
 - 隐藏发现页面的游戏中心 -- added since v1.0
 
@@ -27,3 +30,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+
+[xposed_module_svg]: https://img.shields.io/badge/Xposed-Module-orange.svg
+[wechat_hunter_svg]: https://img.shields.io/badge/Wechat-Hunter-green.svg
