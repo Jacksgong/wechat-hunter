@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.dreamtobe.xposed.wechathunt">
+
+    <application android:label="WechatHunt">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="The hunter for wechat" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="30" />
+
+    </application>
+
+</manifest>
