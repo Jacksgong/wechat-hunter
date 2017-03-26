@@ -25,5 +25,3 @@
 #-renamesourcefileattribute SourceFile
 -keep class cn.dreamtobe.xposed.wechathunt.WechatHunt{*;}
 -keepnames class cn.dreamtobe.xposed.wechathunt.WechatHunt
--keep class de.robv.android.xposed.**{*;}
--keepnames class de.robv.android.xposed.**
