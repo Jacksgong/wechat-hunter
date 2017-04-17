@@ -3,7 +3,7 @@
 ![][wechat_hunter_svg]
 ![][xposed_module_svg]
 
-这个模块是因为这几天都在玩王者荣耀游戏，后面老是被坑怒卸了，后来老是想要打开微信的游戏中心，看看好友动态，但是看了又想玩，于是就在设置->通用->功能里面找，却没有找到关闭游戏模块的地方，所以就看了下[Xposed文档](https://github.com/rovo89/XposedBridge/wiki/Development-tutorial)，隐藏了微信的游戏中心。
+这个模块是因为这几天都在玩王者荣耀游戏，后面老是被坑怒卸了，后来老是想要打开微信的游戏中心，看看好友动态，但是看了又想玩，于是就在设置->通用->功能里面找，却没有找到关闭游戏模块的地方，所以就看了下[Xposed文档](https://github.com/rovo89/XposedBridge/wiki/Development-tutorial)，隐藏了微信的游戏中心。你也可以通过安装[crash-pvp](https://github.com/Jacksgong/crash-pvp)这个模块，让一启动王者荣耀程序就立马Crash。
 
 #### 目前支持功能:
 
